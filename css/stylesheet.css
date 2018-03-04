@@ -36,3 +36,7 @@
 .portfolio_text{
     color:black;
 }
+
+.img-responsive{
+    width:100%;
+};
