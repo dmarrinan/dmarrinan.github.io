@@ -325,7 +325,7 @@ figure.effect-bubba {
 }
 
 figure.effect-bubba img {
-	opacity: 0.8;
+	opacity: 1;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
@@ -362,8 +362,8 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba h2 {
-    color: #fff;
-    font-size: 15px;
+    color: black;
+    font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
 	padding-top: 30%;
@@ -374,7 +374,7 @@ figure.effect-bubba h2 {
 }
 
 figure.effect-bubba p {
-    color: #fff;
+    color: black;
     font-size: 13px;
     font-weight: 500;
 	padding: 20px 2.5em;
@@ -394,6 +394,7 @@ figure.effect-bubba:hover figcaption::after {
 
 figure.effect-bubba:hover h2,
 figure.effect-bubba:hover p {
+    color: #fff;
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
